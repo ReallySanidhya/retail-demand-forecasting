@@ -1,0 +1,3 @@
+data_path: data/raw/walmart_cleaned.csv
+model_type: random_forest
+lag_weeks: 4
