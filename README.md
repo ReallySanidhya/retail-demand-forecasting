@@ -121,7 +121,7 @@ python src/api/app.py
 4. Export dashboard data
 python scripts/export_dashboard_data.py
 
-**Why I think this proeject is special**
+**Why I think this project is special**
 
 This project demonstrates a complete machine learning system, from raw data to deployed predictions and visualization, showcasing both data science and ML engineering skills.
 
