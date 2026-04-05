@@ -27,13 +27,9 @@ Retail businesses need accurate demand forecasts to optimize inventory, reduce s
 This project predicts weekly sales by store using historical trends and external factors.
 
 🏗️ Architecture
-Raw Data → Feature Engineering → Model Training → API (Render)
-                                   ↓
-                              Predictions
-                                   ↓
-                           CSV Export Script
-                                   ↓
-                          Tableau Dashboard
+
+<img width="786" height="226" alt="image" src="https://github.com/user-attachments/assets/061f8490-da11-4d60-adb6-eeb3f04bd83c" />
+
 📊 Dataset
 
 Walmart retail dataset with features:
@@ -44,19 +40,20 @@ Temperature, Fuel Price
 CPI, Unemployment
 MarkDown features
 Holiday indicator
-⚙️ Features Engineered
+Features Engineered
 Lag features (1, 2, 4, 8 weeks)
 Rolling mean and standard deviation
 Growth rates
 Time features (week, month, year)
-🤖 Model
+
+Mode 🤖 
 
 Baseline Model: Random Forest Regressor
 
 Handles non-linearity
 No scaling required
 Strong performance baseline
-📈 Evaluation Metrics
+Evaluation Metrics 📈
 MAE (Mean Absolute Error)
 RMSE (Root Mean Squared Error)
 MAPE (Mean Absolute Percentage Error)
@@ -72,7 +69,7 @@ The model is deployed as a Flask API on Render.
 
 🔗 Live API:
 
-👉 https://retail-demand-forecasting-pmnm.onrender.com/
+ https://retail-demand-forecasting-pmnm.onrender.com/
 
 Endpoints:
 /health
@@ -91,9 +88,9 @@ Multi-step future forecasting
 
 Built using Tableau Public.
 
-🔗 Dashboard Link:
+🔗 My dashboard Link:
 
-👉 (paste your Tableau Public link here)
+https://public.tableau.com/app/profile/sanidhya.sanidhya/viz/RetailDemandForecastingDashboard/RetailDemandForecastingDashboard?publish=yes
 
 Features:
 Actual vs Forecast trend line
@@ -109,25 +106,9 @@ Python (Pandas, Scikit-learn)
 Flask (API)
 Render (deployment)
 Tableau Public (visualization)
-📁 Project Structure
-src/
-  ├── ingestion/
-  ├── features/
-  ├── train/
-  ├── evaluate/
-  ├── api/
 
-data/
-  ├── raw/
-  ├── processed/
+<img width="530" height="604" alt="image" src="https://github.com/user-attachments/assets/3a1df4ee-0a6b-4f90-8b84-7105a36c3fdf" />
 
-models/
-  ├── baseline/
-  ├── lstm/
-  ├── artifacts/
-
-scripts/
-  └── export_dashboard_data.py
 ▶️ How to Run Locally
 1. Install dependencies
 pip install -r requirements.txt
@@ -139,25 +120,10 @@ python src/train/train_baseline.py
 python src/api/app.py
 4. Export dashboard data
 python scripts/export_dashboard_data.py
-💡 Key Learnings
-Building end-to-end ML pipelines
-Feature engineering for time series
-Model deployment using Flask + Render
-API-driven data workflows
-Dashboard design and storytelling
-🚀 Future Improvements
-LSTM / deep learning models
-Real-time dashboard integration
-Hyperparameter tuning
-Multi-store forecasting
-📸 Screenshots
 
-(Add your dashboard screenshot here)
+**Why I think this proeject is special**
 
-👤 Author
+This project demonstrates a complete machine learning system, from raw data to deployed predictions and visualization, showcasing both data science and ML engineering skills.
 
-Sanidhya
-
-⭐ Summary
-
-This project demonstrates a complete machine learning system, from raw data to deployed predictions and visualization — showcasing both data science and ML engineering skills.
+Need any help, contact me :) 
+                          - Sanidhya.
