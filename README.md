@@ -2,29 +2,27 @@
 
 link to dashboard: https://public.tableau.com/app/profile/sanidhya.sanidhya/viz/RetailDemandForecastingDashboard/RetailDemandForecastingDashboard?publish=yes
 
-📦 Retail Demand Forecasting System
+# 📦 Retail Demand Forecasting System
 
-An end-to-end machine learning system that predicts weekly retail sales, serves predictions via a deployed API, and visualizes results through an interactive dashboard.
+I built an end-to-end machine learning system that predicts weekly retail sales, serves predictions via a deployed API, and visualizes results through an interactive dashboard.
 
-🚀 Project Overview
+**Project Overview**
 
 This project builds a complete forecasting pipeline for retail sales using historical Walmart data.
 
 It includes:
 
-Data ingestion and preprocessing
-Feature engineering for time series forecasting
-Machine learning model training (Random Forest baseline)
-Model evaluation using standard metrics
-Deployment of the model as a live API (Render)
-Dashboard visualization (Tableau Public)
-🧠 Problem Statement
+1. Data ingestion and preprocessing
+2. Feature engineering for time series forecasting
+3. Machine learning model training (Random Forest baseline)
+4. Model evaluation using standard metrics
+5. Deployment of the model as a live API (Render)
+6. Dashboard visualization (Tableau Public)
+7. 
 
-Retail businesses need accurate demand forecasts to:
+**Problem Statement**
 
-optimize inventory
-reduce stockouts
-improve pricing and promotions
+Retail businesses need accurate demand forecasts to optimize inventory, reduce stockouts and improve pricing and promotions.
 
 This project predicts weekly sales by store using historical trends and external factors.
 
